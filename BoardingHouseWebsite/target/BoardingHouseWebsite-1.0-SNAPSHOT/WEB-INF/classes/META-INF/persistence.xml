@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="com.tth.btl_BoardingHouseWebsite_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.tth.pojo.Users</class>
+    <class>com.tth.pojo.Customer</class>
+    <class>com.tth.pojo.Role</class>
+    <class>com.tth.pojo.Lessor</class>
+    <class>com.tth.pojo.BoardingHouse</class>
+    <class>com.tth.pojo.Follow</class>
+    <class>com.tth.pojo.Image</class>
+    <class>com.tth.pojo.Comment</class>
+    <class>com.tth.pojo.Category</class>
+    <class>com.tth.configs.Image</class>
+    <class>com.tth.configs.Comment</class>
+    <class>com.tth.configs.Role</class>
+    <class>com.tth.configs.Category</class>
+    <class>com.tth.configs.Lessor</class>
+    <class>com.tth.configs.Follow</class>
+    <class>com.tth.configs.BoardingHouse</class>
+    <class>com.tth.configs.Users</class>
+    <class>com.tth.configs.Customer</class>
+    <class>com.tth.pojo.Post</class>
+    <class>com.tth.pojo.LessorPost</class>
+    <class>com.tth.pojo.CustomerPost</class>
+    <class>com.tth.pojo.LessorImages</class>
+    <class>com.tth.pojo.Images</class>
+    <class>com.tth.pojo.PostImages</class>
+    <class>com.tth.pojo.Roles</class>
+    <class>com.tth.pojo.Customers</class>
+    <class>com.tth.pojo.Area</class>
+    <class>com.tth.pojo.Provinces</class>
+    <class>com.tth.pojo.Districts</class>
+    <class>com.tth.pojo.Tentant</class>
+    <class>com.tth.pojo.Room</class>
+    <class>com.tth.pojo.AdministrativeRegions</class>
+    <class>com.tth.pojo.Wards</class>
+    <class>com.tth.pojo.Notification</class>
+    <class>com.tth.pojo.AdministrativeUnits</class>
+    <class>com.tth.pojo.Landlord</class>
+    <class>com.tth.pojo.User</class>
+    <class>com.tth.pojo.Postoftenant</class>
+    <class>com.tth.components.LessorPost</class>
+    <class>com.tth.components.Area</class>
+    <class>com.tth.components.Lessor</class>
+    <class>com.tth.components.Customers</class>
+    <class>com.tth.components.Users</class>
+    <class>com.tth.components.Post</class>
+    <class>com.tth.components.Images</class>
+    <class>com.tth.components.Comment</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/boardinghousedb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Admin@123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
